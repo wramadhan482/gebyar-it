@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gebyar IT</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9b899490a4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Uway.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skill</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Mobile Developer</p>
+          <h1>
+            Hallo saya <span>Wahyu</span> <br />
+            Ramadhan dari <br />
+            UIKA Bogor
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!--------------about------------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/uway-profile.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">Tentang Saya</h1>
+            <p>
+              Halo! Saya Wahyu Ramadhan. Saat ini saya sedang belajar di Teknik Informatika UIKA dan saya tertarik untuk belajar pemrograman mobile dan desain grafis, saya memulai karir saya sejak tahun 2019. dan Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Quisquam dolorum eius magni veritatis amet unde, obcaecati delectus ducimus rem in eveniet velit natus cumque vitae qui sint repellat nostrum saepe!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI?UX</span><br />Designing Web/App Interface</li>
+                <li><span>Web Development</span><br />Create Web app Development</li>
+                <li><span>App Development</span><br />Building Android/Ios apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Web development</span><br />2019 | Crawling Web Api</li>
+                <li><span>Android Development </span><br />2018 | Making a great app the name is MyCafe</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Dicoding</span><br />Learn all about programming</li>
+                <li><span>Ibn Khaldun University</span><br />Still on Pursuing</li>
+                <li><span>Adi Sanggoro Vocational High School</span><br />how I can improve the efficiency of the programs you already use.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------about-------------------->
+
+    <!-- ----------------service-------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Bidang Kemampuan</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-apple"></i>
+            <h2>IOS Development</h2>
+            <p>Pengembang sistem operasi IOS yang bertanggung jawab untuk mengembangkan aplikasi dari produk perangkat seluler Apple. pola dan praktik seputar pemrograman dan sistem operasi iOS secara mendalam.</p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h2>UI/UX Designer</h2>
+            <p>
+              Desain Antarmuka Pengguna atau rekayasa antarmuka pengguna adalah desain untuk komputer, peralatan, mesin, perangkat komunikasi mobile, aplikasi perangkat lunak, dan situs web yang berfokus pada pengalaman pengguna dan
+              interaksi.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-android"></i>
+            <h2>Android Development</h2>
+            <p>Android Software Development adalah proses pembuatan aplikasi dimana aplikasi dibuat untuk perangkat yang menjalankan sistem operasi Android .</p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------service-------------- -->
+    <!-- ----------------portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Proyek Terakhir</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/K-Food.png" alt="" />
+            <div class="layer">
+              <h3>KAI Food App</h3>
+              <p>Aplikasi yang terhubung langsung dengan sistem KAI Access, guna untuk memesan makanan/minuman dalam kereta</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Food-Recipe.png" alt="" />
+            <div class="layer">
+              <h3>Food Recipe App</h3>
+              <p>Aplikasi yang memberika resep istimewa untuk anda yang sedang belajar masak</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Tiket-Saya.png" alt="" />
+            <div class="layer">
+              <h3>Tiket Saya App</h3>
+              <p>Aplikasi yang di rancang untuk berpergian baik kapanpun dan dimanapun anda berada</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------portfolio------------ -->
+    <!-- ----------------contact-------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Hubungi Saya</h1>
+            <p><i class="fas fa-paper-plane"></i>uwaypedia@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>081298948302</p>
+            <div class="social-icons">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Unduh CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Nama Anda" required />
+              <input type="email" name="Email" placeholder="Email Anda" required />
+              <textarea name="Message" rows="6" placeholder="Pesan Anda"></textarea>
+              <button type="submit" class="btn btn2">Kirim</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">Copyright © Wahyu Ramadhan. 2022 Segala Hak cipta dilindungi</div>
+    </div>
+    <!-- ----------------contact-------------------- -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbynjACoK9YmSs8_7DZJTd_lomL7eeBKDWwFi3fZCm74fewtGAo0N0K8H6UF7eSFFQru/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Pesan kamu sudah terkirim, terimakasih!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
